@@ -1,12 +1,11 @@
-#Cows and Bulls game.
+# Cows and Bulls game.
+# The game is the following:
+# Computer generates a random six digit number. 
+# Player is prompted to guess a 6 digit number. For every correct digit in the correct place, count one cow. 
+# For every correct digit in the wrong place, count a bull. 
+# So every time player enters a number, print the number of cows and bulls. 
+# If the number guessed is correct, congratulate the player and print how many guesses were used to get the correct number
 
-#The game is the following:
-#Computer generates a random six digit number. Player is prompted to
-#guess a 6 digit number. For every correct digit in the correct place, count
-#one cow. For every correct digit in the wrong place, count a bull. So every
-#time player enters a number, print the number of cows and bulls. If the
-#number guessed is correct, congratulate the player and print how many
-#guesses were used to get the correct number
 print("|-------------------------------------|")
 print("|-------------------------------------|")
 print("|      C.O.W   A.N.D   B.U.L.L.S      |")
@@ -50,7 +49,9 @@ while(ans):
 		ans==True
 	else:
 		ans=False
-x=''.join(str(g) for g in d)      
+		
+x=''.join(str(g) for g in d)     
+
 if ans == True:
     print("You GUESSED it CORRECTLY after: "+str(count3)+" guesses")
     print("The Random number is: "+x)
