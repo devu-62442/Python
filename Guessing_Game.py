@@ -1,6 +1,13 @@
+# Guessing Game
+# Your program chooses a random number between 1 and 100 (say r). 
+# Then the player is prompted to guess a number between 1 and 100 (say g). 
+# If g is less than r, then the program prints “The guess is too low”. 
+# if g is greater than r, then it prints “The guess is too high”. 
+# Otherwise, the program prints “The guess is correct” and exits.
+# --------------------------------------------------------------------------------------------------------------------------
 import random
 
-a=random.randint(1,20)
+a=random.randint(1,100)
 i=0
 c=(int)(input("Enter the number of guesses you want:"))
 while(i<c):
