@@ -1,3 +1,4 @@
+# -------------------------------------------------------------------------------------------------------------------------- 
 # Guessing Game
 # Your program chooses a random number between 1 and 100 (say r). 
 # Then the player is prompted to guess a number between 1 and 100 (say g). 
