@@ -1,3 +1,9 @@
+# ----------------------------------------------------------------------------------------------------------------------------
+# Given a string of parenthesis,write a function to return the string“Matched”, 
+# if the opening parentheses  match the closing parentheses. Otherwise return “Not matched”. Example: “((((()))((())(()))))”
+# ----------------------------------------------------------------------------------------------------------------------------
+
+# A method to check whether the braces match or not
 def braces(b):
     a={')':'(','>':'<','}':'{',']':'['}
     st=[]
@@ -20,15 +26,18 @@ def braces(b):
         else:
             continue
     if(flag==1 or len(st)>0):
-        print("NOT-MATCHED")
+        print("\nNOT-MATCHED")
     else:
-        print("MATCHED") 
-    
-b=input("Enter an expression to check whether the PARANTHESIS are equal or not:")
+        print("\nMATCHED") 
+
+# Taking the input from the user
+b=input("\n Enter an expression to check whether the PARANTHESIS are equal or not:")
 d=[]
 c=['(',')','[',']','<','>','{','}']
 for i in c:
     for j in b:
         if(i==j):
             d.append(j)
+
+# Caliing the method
 braces(d)
