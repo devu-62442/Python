@@ -1,10 +1,12 @@
 # Addition and Multiplication Persistence
+# -----------------------------------------------------------------------------------------------------------------------------
 # The multiplicative persistence of a positive integer is the number of steps 
 # required to get a one digit number when separating the digits and multiplying them together. 
 # The persistence of a one digit number is zero. 
 # For example, the persistence of 39 is 3 because 39 → 27 → 14 → 4. Write a function to compute the persistence of an integer.
+# -----------------------------------------------------------------------------------------------------------------------------
 
-
+# Addition Persistent Method Defination
 def add(a):
     d=(int)(a)
     count=0
@@ -18,6 +20,7 @@ def add(a):
         d=s
     return count
 
+# Multiplication Persistent Method Defination
 def mul(a):
     d=(int)(a)
     count=0
@@ -32,5 +35,5 @@ def mul(a):
     return count
 
 a=input("Enter a number:")
-print("Addition Persistence:"+(str)(add(a)))
-print("Multiplication Persistence:"+(str)(mul(a)))
+print("Addition Persistence:"+(str)(add(a))) # Method call
+print("Multiplication Persistence:"+(str)(mul(a))) # Method call
