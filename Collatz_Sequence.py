@@ -1,4 +1,4 @@
-#Collatz Sequence
+# Collatz Sequence
 # -----------------------------------------------------------------------------------------------------------------------------
 # Given N, apply the following rules iteratively to get a sequence that ends with 1.
 # N→N/2 (if N is even)
@@ -7,6 +7,7 @@
 # 13 → 40 → 20 → 10 → 5 → 16 → 8 → 4 → 2 → 1
 # Write a function to generate a Collatz sequence. 
 #-----------------------------------------------------------------------------------------------------------------------------
+
 # Method to generate the COLLATZ SEQUENCE
 def Collatz(a):
     b=a
