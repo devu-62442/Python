@@ -2,5 +2,5 @@ opencv-python==4.1.0.25
 grpcio==1.13.0
 grpcio-tools==1.13.0
 numpy==1.16.0
-tensorflow-gpu==1.14.0
+tensorflow-gpu==1.15.2
 redis==2.10.6
