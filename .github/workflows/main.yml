@@ -2,6 +2,8 @@
 name: Example workflow for Python using Snyk 
 
 on: 
+  push:
+    branches: [master]
   pull_request:
     branches: [master]
 jobs:
